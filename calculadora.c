@@ -1,20 +1,42 @@
 #include <stdio.h>
 
+int suma(int x, int y); /*prototipos de la funcion para evitar fallas de compilacion*/
+int resta(int x, int y);
+int multiplicacion(int x, int y);
+int division(int x, int y);
 
-int main(int a , int b)
+/*definicion main o funcion principal*/
+int main()
+{
+  int a = 100;
+  int b = 25;
+  printf("La calculadora recibe el numero : %i y el numero :%i\n",a ,b);
+  printf("La Suma es: %i\n", suma(a,b));
+  printf("La Resta es: %i\n" , resta(a,b));
+  printf("La Multiplicacion es: %i\n", multiplicacion(a,b));
+  printf("La Division es: %i\n", division(a,b));
+  return (0);
+}
+
+
+/*definicion de las funciones*/ 
+int suma(int x,int y)
 {
   
-  printf("la suma de a : %i\n, y b :%i\n es: %i\n" ,a ,b, suma(a,b);
-	 return (0);
-
-	 }
-    int suma(int x,int y)
-  {
-    
-   int sumar;
-   sumar = x + y;
-   
-   return (sumar); 
-  }
-
+   return ( x + y); 
+}
+int resta(int x,int y)
+{
+  
+   return ( x - y); 
+}
+int multiplicacion(int x,int y)
+{
+  
+   return ( x * y); 
+}
+int division(int x,int y)
+{
+  
+   return ( x / y); 
 }
