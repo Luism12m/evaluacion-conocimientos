@@ -8,8 +8,8 @@ float division(int x, int y);
 /*definicion main o funcion principal*/
 int main()
 {
-  int a = 100;
-  int b = 500;
+  int a = 40;
+  int b = 2;
   printf("La calculadora recibe el numero : %i y el numero :%i\n",a ,b);
   printf("La Suma es: %i\n", suma(a,b));
   printf("La Resta es: %i\n" , resta(a,b));
