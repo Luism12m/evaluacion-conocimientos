@@ -10,8 +10,8 @@ int main(void)
 /*se definen las operaciones y los numeros aqui:*/
 {
   int a = 15;
-  int b = 0;
-  int operacion = 4;
+  int b = 5;
+  int operacion = 1;
   /*realizar la operacion correspondiente:*/
 
   switch (operacion)
